@@ -11,7 +11,8 @@ serviceName=bms-web
 harbor="docker.io/maship"
 echo -e "\033[32m----- build $serviceName start -----\033[0m"
 
-gid=$(git rev-parse --short=7  HEAD)
+#gid=$(git rev-parse --short=7  HEAD)
+gid=latest
 echo -e "short commit id: $gid"
 
 echo -e "\033[32m----- start npm build -----\033[0m"
