@@ -5,8 +5,8 @@ import { getToken } from '@/utils/auth'
 
 // 创建axios实例
 const service = axios.create({
-  // baseURL: "http://bms.clina.top/bms", // api的base_url
-  baseURL: "http://localhost:8080", // api的base_url
+  baseURL: "http://bms.clina.top/bms", // api的base_url
+  // baseURL: "http://localhost:8080", // api的base_url
   timeout: 15000 // 请求超时时间
 });
 
